@@ -10,7 +10,7 @@ directory_path = "./jimport/"
 file_list = os.listdir(directory_path)
 
 # Ensure that the directory contains at least 10 files
-if len(file_list) < 3:
+if len(file_list) < 1:
     print("There are not enough files in the directory.")
 else:
     # Select 10 random filenames from the list (without extensions)
